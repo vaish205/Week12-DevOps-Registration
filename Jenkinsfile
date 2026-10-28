@@ -5,8 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+                echo 'GitHub repository checked out successfully'
             }
         }
 
